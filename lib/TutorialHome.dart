@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/MyButton.dart';
 
 class TutorialHome extends StatelessWidget {
   const TutorialHome({ super.key });
@@ -18,7 +19,7 @@ class TutorialHome extends StatelessWidget {
           IconButton(onPressed: null, icon: Icon(Icons.search), tooltip:"Search")
         ]),
         body: const Center(
-          child: Text("Hello there"),
+          child: MyButton(),
         ),
         floatingActionButton: const FloatingActionButton(onPressed: null, tooltip: "Add", 
         child: Icon(Icons.add),),
