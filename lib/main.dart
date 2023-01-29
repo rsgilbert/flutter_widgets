@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/Counter.dart';
 import 'package:flutter_widgets/TutorialHome.dart';
 import 'package:flutter_widgets/myscaffold.dart';
 
 void main() {
-  runApp(const MaterialApp(title: 'Flutter Tutorials', home: TutorialHome()));
+  runApp(const MaterialApp(title: 'Flutter Tutorials', home: Counter()));
 }
 
 class MyApp extends StatelessWidget {
