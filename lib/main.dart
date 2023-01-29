@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/myscaffold.dart';
 
 void main() {
+  runApp(const MaterialApp(
+    title:"my flutter app",
+    home: SafeArea(child: MyScaffold())
+  ));
   // runApp(const MyApp());
-  runApp(
-    const Center(
-      child: Text(
-        "Hello, Flutter world",
-        textDirection: TextDirection.ltr,
-      )
-    )
-  );
+  // runApp(
+  //   const Center(
+  //     child: Text(
+  //       "Hello, Flutter world",
+  //       textDirection: TextDirection.ltr,
+  //     )
+  //   )
+  // );
 }
 
 
