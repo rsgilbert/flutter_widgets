@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/Counter.dart';
+import 'package:flutter_widgets/MyLayout.dart';
 import 'package:flutter_widgets/ShoppingList.dart';
 import 'package:flutter_widgets/ShoppingListItem.dart';
 import 'package:flutter_widgets/TutorialHome.dart';
@@ -8,12 +9,9 @@ import 'package:flutter_widgets/myscaffold.dart';
 void main() {
   runApp(const MaterialApp(
       title: 'Flutter Tutorials',
-      home: ShoppingList(products: [
-        Product(name: "Vanilla Milkshake"),
-        Product(name: "Egg Roll"),
-        Product(name: "White Star washing soap"),
-        Product(name: "Macron")
-      ])));
+      home: Center(
+        child: MyLayout(),
+      )));
 }
 
 class MyApp extends StatelessWidget {
