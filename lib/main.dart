@@ -1,21 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/Counter.dart';
+import 'package:flutter_widgets/ShoppingList.dart';
 import 'package:flutter_widgets/ShoppingListItem.dart';
 import 'package:flutter_widgets/TutorialHome.dart';
 import 'package:flutter_widgets/myscaffold.dart';
 
-
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
       title: 'Flutter Tutorials',
-      home: Scaffold(
-          body: Center(
-              child: ShoppingListItem(
-                  product: const Product(name: "Chicken and Chips"),
-                  inCart: false,
-                  onCartChanged: (product, inCart) {
-                    print("Product is ${product.name}, inCart is $inCart");
-                  })))));
+      home: ShoppingList(products: [
+        Product(name: "Vanilla Milkshake"),
+        Product(name: "Egg Roll"),
+        Product(name: "White Star washing soap"),
+        Product(name: "Macron")
+      ])));
 }
 
 class MyApp extends StatelessWidget {
