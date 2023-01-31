@@ -62,6 +62,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - packages/flutter_widgets/images/deep-dark-nothing.png
+    - packages/flutter_widgets/images/super-rib.png
+    - packages/flutter_widgets/images/regex.PNG
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
