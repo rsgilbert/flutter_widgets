@@ -7,11 +7,12 @@ import 'package:flutter_widgets/ShoppingList.dart';
 import 'package:flutter_widgets/ShoppingListItem.dart';
 import 'package:flutter_widgets/TutorialHome.dart';
 import 'package:flutter_widgets/myscaffold.dart';
+import 'package:flutter_widgets/standard-widgets/MyContainer.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
     home: Center(
-      child: Scaffold(body: Ratings())
+      child: Scaffold(body: buildImageColumn())
     )));
 }
 
