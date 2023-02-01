@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/Counter.dart';
 import 'package:flutter_widgets/MyNonMaterialApp.dart';
 import 'package:flutter_widgets/MyLayout.dart';
+import 'package:flutter_widgets/Ratings.dart';
 import 'package:flutter_widgets/ShoppingList.dart';
 import 'package:flutter_widgets/ShoppingListItem.dart';
 import 'package:flutter_widgets/TutorialHome.dart';
@@ -10,7 +11,7 @@ import 'package:flutter_widgets/myscaffold.dart';
 void main() {
   runApp(const MaterialApp(
     home: Center(
-      child: MyLayout(),
+      child: Scaffold(body: Ratings())
     )));
 }
 
