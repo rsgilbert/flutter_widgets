@@ -8,11 +8,12 @@ import 'package:flutter_widgets/ShoppingListItem.dart';
 import 'package:flutter_widgets/TutorialHome.dart';
 import 'package:flutter_widgets/myscaffold.dart';
 import 'package:flutter_widgets/standard-widgets/MyContainer.dart';
+import 'package:flutter_widgets/standard-widgets/MyGridView.dart';
 
 void main() {
   runApp(MaterialApp(
     home: Center(
-      child: Scaffold(body: buildImageColumn())
+      child: Scaffold(body: buildGrid())
     )));
 }
 
